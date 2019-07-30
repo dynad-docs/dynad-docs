@@ -15,3 +15,10 @@ $ npm start
 ```
 $ npm install -g docusaurus-init docusaurus
 ```
+
+## Deploying
+
+```
+$ git checkout source
+$ GIT_USER=tfmend CURRENT_BRANCH=master npm run publish-gh-pages
+```
